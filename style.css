@@ -1,0 +1,59 @@
+body {
+
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    position: relative;
+    margin-top: 2rem;
+    overflow: hidden;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.movie {
+
+    width: 300px;
+    margin: 1rem;
+    display: inline-block;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: bluar(5px);
+
+
+}
+
+.movie ul li span {
+    font-weight: 800;
+    color: #2ec2b3;
+}
+
+.movie ul {
+    list-style: none;
+
+}
+
+.movie img {
+    margin: 0 86px;
+    border-radius: 50%;
+}
+
+button {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    background-color: hsl(153, 100%, 82%);
+    border-radius: 5px;
+
+
+}
